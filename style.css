@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    font-family: san-serif;
+}
+
+
+.h1{
+    font-size: 60px;
+    width: 300px;
+    height: 140px;
+    animation-name: Ilyosbek;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    /* animation-direction: alternate; */
+    /* animation-direction: alternate-reverse; */
+    /* animation-direction: reverse; */
+    /* animation-timing-function: linear; */
+    /* background-repeat: no-repeat; */
+    background-size: 100%;
+    position: relative;
+    left: 20%;
+}
+
+@keyframes Ilyosbek{
+    0%{
+        margin-left: 0;
+        margin-top: 0;
+        color: aqua;
+        transform: rotate3d(10,0.1,20,25deg);
+        text-shadow: 0 0 10px;
+        transform: scale3d(10,20,30,40deg);
+        background-color: yellow;
+        box-shadow: 0 0 20px 1px aqua;
+
+    }
+    25%{
+        margin-left: 400px;
+        margin-top: 0;
+        color: blue;
+        transform: scale3d(10,20,30,40deg);
+        transform: rotate3d(15,0.15,30,40deg);
+        text-shadow: 0 0 20px;
+        box-shadow: 0 0 30px 2px blue;
+        background-color: red;
+
+    }
+    50%{
+        margin-left: 400px;
+        margin-top: 400px;
+        color: red;
+        text-shadow: 0 0 30px;
+        transform: rotate3d(20,0.2,40,50deg);
+        box-shadow: 0 0 40px 3px red;
+        background-color: aqua;
+    }
+    75%{
+        margin-left: 0;  
+        margin-top: 400px;
+        color: green;
+        text-shadow: 0 0 40px;
+        box-shadow: 0 0 50px 4px green;
+        background-color: blue;
+    } 
+    100%{
+        color: yellow;
+        text-shadow: 0 0 50px;
+        box-shadow: 0 0 60px 5px yellow;
+        background-color: green;
+    }
+}

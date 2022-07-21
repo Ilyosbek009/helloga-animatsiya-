@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Bad+Script');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    font-family: Bad Script, cursive ;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    color: #111;
+    font-size: 12em;
+}
+h1 span{
+    display: table-cell;
+    padding: 0;
+    margin: 0;
+    animation: ilyosbek 4s linear infinite;
+    letter-spacing: 18px;
+    position: relative;
+    top: 100px;
+}
+@keyframes ilyosbek{
+    0%,100%{
+        color: #fff;
+        filter: blur(2px);
+        text-shadow: 0 0 10px cyan,
+                     0 0 30px cyan,
+                     0 0 40px cyan,
+                     0 0 80px cyan,
+                     0 0 120px cyan,
+                     0 0 200px cyan,
+                     0 0 300px cyan,
+                     0 0 400px cyan;
+    }
+    5%,95%{
+        color: #111;
+        filter: blur(0px);
+        text-shadow: none;
+    }
+}
+h1 span:nth-child(1){
+    animation-delay: 0s;
+}
+h1 span:nth-child(2){
+    animation-delay: 0.5s;
+}
+h1 span:nth-child(3){
+    animation-delay: 1s;
+}
+h1 span:nth-child(4){
+    animation-delay: 1.5s;
+}
+h1 span:nth-child(5){
+    animation-delay: 2s;
+}
+h1 span:nth-child(6){
+    animation-delay: 2.5s;
+}
+h1 span:nth-child(7){
+    animation-delay: 3s;
+}
+h1 span:nth-child(8){
+    animation-delay: 3.5s;
+}
